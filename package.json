@@ -1,0 +1,38 @@
+{
+  "name": "@brdd-design/core",
+  "version": "0.2.0",
+  "description": "Business Rule Driven Design (BRDD) core components for TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "brdd",
+    "business-rules",
+    "ddd",
+    "architecture"
+  ],
+  "author": "Defol Tech <defoltech@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brdd-design/brdd-typescript.git"
+  },
+  "homepage": "https://brdd.design",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  }
+}
